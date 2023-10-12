@@ -120,37 +120,37 @@
     compatible = "zmk,combos";
 
     combo_df_esc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <15 16>;
       bindings = <&kp ESC>;
     };
     combo_jk_esc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <19 20>;
       bindings = <&kp ESC>;
     };
 
     combo_sd_bspc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <14 15>;
       bindings = <&kp BSPC>;
       layers = <0 1>;
     };
     combo_kl_bspc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <20 21>;
       bindings = <&kp BSPC>;
       layers = <0 1>;
     };
 
     combo_sd_alt_bspc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <14 15>;
       bindings = <&kp LA(BSPC)>;
       layers = <2>;
     };
     combo_kl_alt_bspc {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <20 21>;
       bindings = <&kp LA(BSPC)>;
       layers = <2>;
@@ -158,29 +158,29 @@
 
 
     combo_sf_tab {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <14 16>;
       bindings = <&kp TAB>;
     };
     combo_jl_tab {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <19 21>;
       bindings = <&kp TAB>;
     };
 
     combo_sdf_ret {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <14 15 16>;
       bindings = <&kp RET>;
     };
     combo_jkl_ret {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <19 20 21>;
       bindings = <&kp RET>;
     };
 
     combo_comm_del {
-      timeout-ms = <50>;
+      timeout-ms = <40>;
       key-positions = <32 33>;
       bindings = <&kp DEL>;
     };
