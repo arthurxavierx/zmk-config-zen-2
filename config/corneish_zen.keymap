@@ -134,12 +134,28 @@
       timeout-ms = <50>;
       key-positions = <14 15>;
       bindings = <&kp BSPC>;
+      layers = <0 1>;
     };
     combo_kl_bspc {
       timeout-ms = <50>;
       key-positions = <20 21>;
       bindings = <&kp BSPC>;
+      layers = <0 1>;
     };
+
+    combo_sd_alt_bspc {
+      timeout-ms = <50>;
+      key-positions = <14 15>;
+      bindings = <&kp LA(BSPC)>;
+      layers = <2>;
+    };
+    combo_kl_alt_bspc {
+      timeout-ms = <50>;
+      key-positions = <20 21>;
+      bindings = <&kp LA(BSPC)>;
+      layers = <2>;
+    };
+
 
     combo_sf_tab {
       timeout-ms = <50>;
